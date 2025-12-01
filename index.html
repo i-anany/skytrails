@@ -1,0 +1,274 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <title>SkyTrail Travels - Explore the World</title> 
+  </head> 
+  <body> 
+    <!-- Header --> 
+    <header> 
+      <h1>SkyTrail Travels</h1> 
+      <p>Your partner in unforgettable journeys</p> 
+ 
+      <!-- Navigation --> 
+      <nav> 
+        <a href="#packages">Tour Packages</a> | 
+        <a href="#booking">Book a Trip</a> | <a href="#tips">Travel Tips</a> | 
+        <a href="#gallery">Destination Gallery</a> 
+      </nav> 
+      <hr /> 
+    </header> 
+ 
+    <!-- Main Content --> 
+    <main> 
+      <!-- Intro Section --> 
+      <section id="home"> 
+        <h2>Welcome to SkyTrail Travels</h2> 
+        <p> 
+          We offer customized tour packages, easy booking options and expert 
+          travel tips so you can explore the world with comfort and confidence. 
+        </p> 
+      </section> 
+ 
+      <hr /> 
+ 
+      <!-- Tour Packages Section --> 
+      <section id="packages"> 
+        <h2>Popular Tour Packages</h2> 
+ 
+        <article> 
+          <h3>1. Beach Escape - Goa (3N/4D)</h3> 
+          <p> 
+            <strong>Highlights:</strong> Beach resort stay, water sports, 
+            cruise, local markets. 
+          </p> 
+          <p> 
+            <strong>Includes:</strong> Hotel, breakfast, airport transfers, 
+            sightseeing. 
+          </p> 
+          <p><strong>Starting From:</strong> ₹12,999 per person</p> 
+          <a href="#booking">Book this package</a> 
+        </article> 
+ 
+        <hr /> 
+ 
+        <article> 
+          <h3>2. Himalayan Adventure - Manali (4N/5D)</h3> 
+          <p> 
+            <strong>Highlights:</strong> Snow-capped mountains, Solang Valley, 
+            adventure sports. 
+          </p> 
+          <p> 
+            <strong>Includes:</strong> Hotel, breakfast & dinner, local 
+            transfers, guided tours. 
+          </p> 
+          <p><strong>Starting From:</strong> ₹15,499 per person</p> 
+          <a href="#booking">Book this package</a> 
+        </article> 
+ 
+        <hr /> 
+ 
+        <article> 
+          <h3>3. Royal Heritage - Rajasthan (5N/6D)</h3> 
+          <p> 
+            <strong>Highlights:</strong> Jaipur, Udaipur, forts, palaces, lake 
+            cruise. 
+          </p> 
+          <p> 
+            <strong>Includes:</strong> Hotel, breakfast, city tours, cultural 
+            show. 
+          </p> 
+          <p><strong>Starting From:</strong> ₹21,999 per person</p> 
+          <a href="#booking">Book this package</a> 
+        </article> 
+      </section> 
+ 
+      <hr /> 
+ 
+      <!-- Booking Section --> 
+      <section id="booking"> 
+        <h2>Book Your Trip</h2> 
+        <p> 
+          Fill out the form below and our travel expert will contact you with 
+          details. 
+        </p> 
+ 
+        <form> 
+          <!-- Personal Details --> 
+          <fieldset> 
+            <legend>Personal Details</legend> 
+ 
+            <label for="name">Full Name:</label><br /> 
+            <input type="text" id="name" name="name" /><br /><br /> 
+ 
+            <label for="email">Email:</label><br /> 
+            <input type="email" id="email" name="email" /><br /><br /> 
+ 
+            <label for="phone">Phone Number:</label><br /> 
+            <input type="tel" id="phone" name="phone" /><br /><br /> 
+          </fieldset> 
+          <br /> 
+ 
+          <!-- Trip Details --> 
+          <fieldset> 
+            <legend>Trip Details</legend> 
+ 
+            <label for="destination">Preferred Destination:</label><br /> 
+            <select id="destination" name="destination"> 
+              <option value="goa">Goa</option> 
+              <option value="manali">Manali</option> 
+              <option value="rajasthan">Rajasthan</option> 
+              <option value="international"> 
+                International (Others) 
+              </option></select 
+            ><br /><br /> 
+ 
+            <label for="package">Select Package Type:</label><br /> 
+            <select id="package" name="package"> 
+              <option value="budget">Budget</option> 
+              <option value="standard">Standard</option> 
+              <option value="luxury">Luxury</option></select 
+            ><br /><br /> 
+ 
+            <label for="start-date">Start Date:</label><br /> 
+            <input type="date" id="start-date" name="start-date" /><br /><br /> 
+ 
+            <label for="end-date">End Date:</label><br /> 
+            <input type="date" id="end-date" name="end-date" /><br /><br /> 
+ 
+            <label for="people">Number of Travelers:</label><br /> 
+            <input 
+              type="number" 
+              id="people" 
+              name="people" 
+              min="1" 
+            /><br /><br /> 
+ 
+            <label>Travel Type:</label><br /> 
+            <input type="radio" id="family" name="travel-type" value="family" /> 
+            <label for="family">Family</label><br /> 
+ 
+            <input 
+              type="radio" 
+              id="friends" 
+              name="travel-type" 
+              value="friends" 
+            /> 
+            <label for="friends">Friends</label><br /> 
+ 
+            <input type="radio" id="solo" name="travel-type" value="solo" /> 
+            <label for="solo">Solo</label><br /><br /> 
+          </fieldset> 
+          <br /> 
+ 
+          <!-- Additional Info --> 
+          <fieldset> 
+            <legend>Additional Information</legend> 
+ 
+            <label for="message">Special Requests / Comments:</label><br /> 
+            <textarea id="message" name="message" rows="4" cols="40"></textarea 
+            ><br /><br /> 
+          </fieldset> 
+          <br /> 
+ 
+          <input type="submit" value="Submit Booking Request" /> 
+        </form> 
+      </section> 
+ 
+      <hr /> 
+ 
+      <!-- Travel Tips Section --> 
+      <section id="tips"> 
+        <h2>Travel Tips</h2> 
+ 
+        <article> 
+          <h3>Packing Essentials</h3> 
+          <ul> 
+            <li>Carry a small first-aid kit.</li> 
+            <li>Pack light and keep space for souvenirs.</li> 
+            <li>Keep important documents in a separate folder.</li> 
+          </ul> 
+        </article> 
+ 
+        <article> 
+          <h3>Money & Safety</h3> 
+          <ul> 
+            <li>Always keep some local currency with you.</li> 
+            <li>Share your itinerary with family or friends.</li> 
+            <li>Use hotel lockers for passports and valuables.</li> 
+          </ul> 
+        </article> 
+ 
+        <article> 
+          <h3>Smart Travel</h3> 
+          <ul> 
+            <li>Check the weather forecast before packing.</li> 
+            <li>Download offline maps of your destination.</li> 
+            <li>Respect local culture, dress codes and rules.</li> 
+          </ul> 
+        </article> 
+      </section> 
+ 
+      <hr /> 
+ 
+      <!-- Destination Gallery Section --> 
+      <section id="gallery"> 
+        <h2>Destination Gallery</h2> 
+        <p>Have a look at some of our favourite travel spots:</p> 
+ 
+        <!-- These image paths are placeholders; replace with real image files if you have them --> 
+        <figure> 
+          <img 
+            src="images/goa-beach.jpg" 
+            alt="Sunny beach in Goa" 
+            width="250" 
+            height="150" 
+          /> 
+          <figcaption>Golden beaches of Goa</figcaption> 
+        </figure> 
+ 
+        <figure> 
+          <img 
+            src="images/manali-mountains.jpg" 
+            alt="Snowy mountains in Manali" 
+            width="250" 
+            height="150" 
+          /> 
+          <figcaption>Snowy peaks of Manali</figcaption> 
+        </figure> 
+ 
+        <figure> 
+          <img 
+            src="images/jaipur-fort.jpg" 
+            alt="Historic fort in Rajasthan" 
+            width="250" 
+            height="150" 
+          /> 
+          <figcaption>Majestic forts of Rajasthan</figcaption> 
+        </figure> 
+ 
+        <figure> 
+          <img 
+            src="images/city-skyline.jpg" 
+            alt="International city skyline" 
+            width="250" 
+            height="150" 
+          /> 
+          <figcaption>International city escapes</figcaption> 
+        </figure> 
+      </section> 
+    </main> 
+ 
+    <hr /> 
+ 
+    <!-- Footer --> 
+    <footer> 
+      <p>&copy; 2025 SkyTrail Travels. All rights reserved.</p> 
+      <p> 
+        Contact: 
+        <a href="mailto:info@skytrailtravels.com">info@skytrailtravels.com</a> | 
+        Phone: +91-98765-43210 
+      </p> 
+    </footer> 
+  </body> 
+</html>
